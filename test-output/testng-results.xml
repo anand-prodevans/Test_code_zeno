@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="113171" started-at="2017-11-07T14:05:57Z" finished-at="2017-11-07T14:07:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="113171" started-at="2017-11-07T14:05:57Z" finished-at="2017-11-07T14:07:51Z">
+      <class name="com.pack.home.TestExecution.TestRun">
+        <test-method status="PASS" signature="executing()[pri:0, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="executing" is-config="true" duration-ms="5177" started-at="2017-11-07T19:35:57Z" finished-at="2017-11-07T19:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executing -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="login" duration-ms="11834" started-at="2017-11-07T19:36:03Z" description="Performs an successful login and checks the dashboard url (passes)" finished-at="2017-11-07T19:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="parentallink()[pri:2, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="parentallink" duration-ms="7130" started-at="2017-11-07T19:36:15Z" description="Tries to navigate to Parental Control (passes)" finished-at="2017-11-07T19:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentallink -->
+        <test-method status="PASS" signature="advancedlink()[pri:4, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="advancedlink" duration-ms="5157" started-at="2017-11-07T19:36:22Z" description="Tries to navigate to Blocked List (passes)" finished-at="2017-11-07T19:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedlink -->
+        <test-method status="PASS" signature="blockedlink()[pri:4, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="blockedlink" duration-ms="5214" started-at="2017-11-07T19:36:27Z" description="Tries to navigate to Blocked List (passes)" finished-at="2017-11-07T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockedlink -->
+        <test-method status="PASS" signature="selectlink()[pri:4, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="selectlink" duration-ms="1008" started-at="2017-11-07T19:36:32Z" description="Tries to navigate to Advanced List (passes)" finished-at="2017-11-07T19:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlink -->
+        <test-method status="PASS" signature="selectlink2()[pri:4, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="selectlink2" duration-ms="1015" started-at="2017-11-07T19:36:33Z" description="Tries to navigate to Blocked List (passes)" finished-at="2017-11-07T19:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlink2 -->
+        <test-method status="PASS" signature="customlink()[pri:5, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="customlink" duration-ms="5152" started-at="2017-11-07T19:36:34Z" description="Tries to navigate to Custom List (passes)" finished-at="2017-11-07T19:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customlink -->
+        <test-method status="PASS" signature="Customurl()[pri:8, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="Customurl" duration-ms="6866" started-at="2017-11-07T19:36:39Z" description="Perform Custom blocking of email (passes)" finished-at="2017-11-07T19:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customurl -->
+        <test-method status="PASS" signature="Schedulelink()[pri:9, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="Schedulelink" duration-ms="5208" started-at="2017-11-07T19:36:46Z" description="Tries to navigate to Schedule part (passes)" finished-at="2017-11-07T19:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Schedulelink -->
+        <test-method status="PASS" signature="timeschedule1()[pri:10, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="timeschedule1" duration-ms="5183" started-at="2017-11-07T19:36:51Z" description="Tries to navigate to Time schedule tab (passes)" finished-at="2017-11-07T19:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeschedule1 -->
+        <test-method status="PASS" signature="timeblock()[pri:11, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="timeblock" duration-ms="15088" started-at="2017-11-07T19:36:56Z" description="Tries to pass value to Time schedule tab (passes)" finished-at="2017-11-07T19:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeblock -->
+        <test-method status="PASS" signature="dayschedule()[pri:12, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="dayschedule" duration-ms="5173" started-at="2017-11-07T19:37:12Z" description="Tries to navigate to Day schedule tab (passes)" finished-at="2017-11-07T19:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dayschedule -->
+        <test-method status="PASS" signature="dayblock()[pri:13, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="dayblock" duration-ms="9731" started-at="2017-11-07T19:37:17Z" description="Tries to pass value to Day schedule tab (passes)" finished-at="2017-11-07T19:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dayblock -->
+        <test-method status="PASS" signature="dateschedule()[pri:14, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="dateschedule" duration-ms="5228" started-at="2017-11-07T19:37:26Z" description="Tries to navigate to dates schedule tab (passes)" finished-at="2017-11-07T19:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateschedule -->
+        <test-method status="PASS" signature="dateblock()[pri:15, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="dateblock" duration-ms="17935" started-at="2017-11-07T19:37:32Z" description="Tries to pass value to Day schedule tab (passes)" finished-at="2017-11-07T19:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateblock -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pack.home.TestExecution.TestRun@5700d6b1]" name="afterMethod" is-config="true" duration-ms="1030" started-at="2017-11-07T19:37:50Z" finished-at="2017-11-07T19:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pack.home.TestExecution.TestRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
